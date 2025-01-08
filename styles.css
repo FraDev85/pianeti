@@ -1,0 +1,90 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  background-color: #14213d;
+  color: #fca311;
+  height: 50vh;
+  position: relative;
+  text-align: center;
+  margin: 0;
+  display: block;
+}
+
+header h1 {
+  margin: 0;
+  width: 100%;
+  position: absolute;
+  top: 20vh;
+  text-shadow: 2px 1px 2px #e5e5e5;
+  font-size: 4rem;
+}
+
+.inform {
+  width: 80%;
+  border-color: #14213d;
+  border-width: 2px;
+  border-style: solid;
+  display: block;
+  margin-top: 20px;
+  background-color: #fca311;
+  left: 10%;
+  position: relative;
+  display: block;
+}
+
+.inform h2 {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.inform .testo {
+  padding: 1rem;
+}
+
+.container-card {
+  width: 80%;
+
+  margin-top: 20px;
+  position: relative;
+  left: 10%;
+}
+
+.container-card .card h2 {
+  border-bottom: 2px solid black;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.container-card .card {
+  width: 31%;
+  margin-left: 5px;
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid black;
+  margin-bottom: 15px;
+}
+
+.container-card .card > div {
+  border-top: 2px solid black;
+  padding: 2px;
+}
+
+footer {
+  background-color: #14213d;
+  color: #fca311;
+  height: 50vh;
+  position: relative;
+  text-align: left;
+  margin: 0;
+  display: block;
+}
+
+footer p {
+  margin-left: 10px;
+  position: absolute;
+  top: 20vh;
+}
