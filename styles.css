@@ -37,11 +37,11 @@ header h1 {
 
 .inform h2 {
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 1.6em;
 }
 
 .inform .testo {
-  padding: 1rem;
+  padding: 1em;
 }
 
 .container-card {
@@ -56,21 +56,35 @@ header h1 {
   border-bottom: 2px solid black;
   margin: 0;
   width: 100%;
-  padding: 0;
+  padding: 2px;
 }
 
 .container-card .card {
-  width: 31%;
+  width: calc(33.5% - 2.3em);
   margin-left: 5px;
   display: inline-block;
-  padding: 5px;
+  padding: 3px;
   border: 1px solid black;
-  margin-bottom: 15px;
+  margin-bottom: 32px;
+  border-radius: 10px;
+  margin-right: 1.1em;
+  box-shadow: 3px 3px 1px #14213d;
 }
 
 .container-card .card > div {
   border-top: 2px solid black;
-  padding: 2px;
+  padding: 0;
+  line-height: 2.1em;
+  min-height: 2.1em;
+  background: rgb(203, 196, 19);
+  background: linear-gradient(
+    38deg,
+    rgb(168, 164, 29) 0%,
+    rgba(210, 234, 29, 1) 31%,
+    rgba(228, 255, 16, 0.6544817756204044) 49%,
+    rgba(203, 241, 76, 1) 69%,
+    rgba(231, 230, 20, 1) 100%
+  );
 }
 
 footer {
@@ -87,4 +101,16 @@ footer p {
   margin-left: 10px;
   position: absolute;
   top: 20vh;
+}
+
+.card:nth-of-type(3),
+.card:nth-of-type(6) {
+  margin-right: 0;
+  margin-left: 16px;
+}
+
+.card:nth-of-type(2),
+.card:nth-of-type(5),
+.card:nth-of-type(8) {
+  margin-left: 16px;
 }
