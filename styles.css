@@ -126,6 +126,48 @@ footer p {
     font-size: 14px;
   }
 
+  header {
+    background-color: #14213d;
+    color: #fca311;
+    height: 50vh;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    display: block;
+  }
+
+  header h1 {
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    top: 20vh;
+    text-shadow: 2px 1px 2px #e5e5e5;
+    font-size: 3.8em;
+  }
+
+  .inform {
+    width: 80%;
+    border-color: #14213d;
+    border-width: 2px;
+    border-style: solid;
+    display: block;
+    margin-top: 20px;
+    background-color: #fca311;
+    left: 10%;
+    position: relative;
+    display: block;
+    font-size: 0.9em;
+  }
+
+  .inform h2 {
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .inform .testo {
+    padding: 0.8em;
+  }
+
   .container-card .card h2 {
     border-bottom: 0.2em solid black;
     margin: 0;
