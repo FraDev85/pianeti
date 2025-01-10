@@ -20,7 +20,7 @@ header h1 {
   position: absolute;
   top: 20vh;
   text-shadow: 2px 1px 2px #e5e5e5;
-  font-size: 4em;
+  font-size: 5em;
 }
 
 .inform {
@@ -34,11 +34,12 @@ header h1 {
   left: 10%;
   position: relative;
   display: block;
+  font-size: 1.4em;
 }
 
 .inform h2 {
   text-align: center;
-  font-size: 1.6em;
+  font-size: 2em;
 }
 
 .inform .testo {
